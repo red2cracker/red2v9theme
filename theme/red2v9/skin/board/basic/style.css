@@ -878,6 +878,40 @@ html.no-overflowscrolling #autosave_pop {height:auto;max-height:10000px !importa
   /*text-overflow: ellipsis;*/
 }
 
+/* 게시판 페이징 */
+.pg_wrap a:link, .pg_wrap a:visited {
+  color: #000; /* 00f; */
+  text-decoration: none;
+}
+
+.pg_wrap a:hover, .pg_wrap a:active {
+  color: #f00;
+  text-decoration: none;
+}
+
+
+/* 버튼에 호버시 색깔 */
+#bo_list .btn_bo_user a.btn_b01:hover,
+#bo_list .btn_bo_user a.btn_b02:hover {
+  color: #f00;
+}
+
+#bo_list .btn_bo_user a.btn_admin:hover {
+  color: #fff;
+}
+
+
+
+/* 리스트 게시판 제목 스타일 */
+h2#container_title a:link, h2#container_title a:visited {
+  color: #000; /* 00f; */
+  text-decoration: none;
+}
+
+h2#container_title a:hover, h2#container_title a:active {
+  color: #f00;
+  text-decoration: none;
+}
 
 
 
@@ -896,43 +930,6 @@ html.no-overflowscrolling #autosave_pop {height:auto;max-height:10000px !importa
   color: #f00;
   text-decoration: none;
 }
-
-
-/* 게시판 페이징 */
-.pg_wrap a:link, .pg_wrap a:visited {
-  color: #000; /* 00f; */
-  text-decoration: none;
-}
-
-.pg_wrap a:hover, .pg_wrap a:active {
-  color: #f00;
-  text-decoration: none;
-}
-
-
-/* 리스트 게시판 제목 스타일 */
-h2#container_title a:link, h2#container_title a:visited {
-  color: #000; /* 00f; */
-  text-decoration: none;
-}
-
-h2#container_title a:hover, h2#container_title a:active {
-  color: #f00;
-  text-decoration: none;
-}
-
-
-/* 버튼에 호버시 색깔 */
-#bo_list .btn_bo_user a.btn_b01:hover,
-#bo_list .btn_bo_user a.btn_b02:hover {
-  color: #f00;
-}
-
-#bo_list .btn_bo_user a.btn_admin:hover {
-  color: #fff;
-}
-
-
 
 
 /* 스타일 끝 */
