@@ -1,0 +1,116 @@
+<div class="other-page">
+
+
+<h1>운영진(Staff)</h1>
+
+<h2>크래커(red2cracker)</h2>
+
+<p><img src="http://localhost/gnuboard5/theme/red2basic/img/staff/cracker.png" alt="크래커 사진" /></p>
+
+<p>사이트 관리, 모드 제작.</p>
+
+<p>레드넷을 운영해온지 10년이 넘었다.<br />
+컴퓨터 학원에서 홈페이지 제작을 배우고 이후에는 독학 만으로 사이트를 만들었다.<br />
+웹디자인과 사용성에 관심이 많다.</p>
+
+<p>저서: <a href="http://digital.kyobobook.co.kr/digital/ebook/ebookDetail.ink?selectedLargeCategory=001&barcode=480150001233P">쉽게 배우는 웹 사용성 이야기(교보문고 전자책)</a></p>
+
+<h3>시간표</h3>
+
+<table class="table table-bordered">
+	<tr class="active">
+		<td>구분</td>
+		<th>월</th>
+		<th>화</th>
+		<th>수</th>
+		<th>목</th>
+		<th>금</th>
+		<th>토</th>
+	</tr>
+	<tr>
+		<td>오전</td>
+		<td>&nbsp;</td>
+		<td>관리</td>
+		<td>&nbsp;</td>
+		<td>관리</td>
+		<td>관리</td>
+		<td>관리</td>
+	</tr>
+	<tr>
+		<td>오후</td>
+		<td>관리</td>
+		<td>&nbsp;</td>
+		<td>관리</td>
+		<td>관리</td>
+		<td>관리</td>
+		<td>&nbsp;</td>
+	</tr>
+</table>
+
+<h2>루카스(야가미라이츄)</h2>
+
+<p><img src="http://localhost/gnuboard5/theme/red2basic/img/staff/lucas.png" alt="루카스 사진" /></p>
+
+<p>게시판, IRC 관리</p>
+
+<h2>Kim Myung Gi</h2>
+
+<p><img src="http://localhost/gnuboard5/theme/red2basic/img/staff/kmg.png" alt="Kim Myung Gi 사진" /></p>
+
+<p>재정 관리</p>
+
+
+<div>
+<button type="button" data-toggle="collapse" data-target="#old-member">
+구 멤버
+</button>
+</div>
+
+<div id="old-member" class="collapse">
+<ul>
+  <li>캐백수포도</li>
+  <li>네플라이트(C&amp;C)</li>
+  <li>달시계(Q&amp;A)</li>
+  <li>F22Raptor</li>
+  <li>마이니오</li>
+  <li>King999(팬픽)</li>
+  <li>Kreuzrander(랜파티)</li>
+  <li>샤이할라드(게임 리그)</li>
+
+  <li>kane0083(번역)</li>
+  <li>낡은컴씨(번역)</li>
+  
+  <li>베로니카(4차 리뉴얼 계정 제공)</li>
+  <li>합성수지</li>
+  <li>쿨티즌(실험실)</li>
+  <li>유준우(리플레이)</li>
+  <li>카케나샤</li>
+  <li>쿨라(실험실)</li>
+  <li>민죽이(게시판)</li>
+  <li>배틀드론, TripleC, Seeker(실험실)</li>
+  <li>녹말군:D(리플레이)</li>
+</ul>
+</div>
+
+<div>
+<button type="button" data-toggle="collapse" data-target="#sp-thanks">
+도움을 주신 분들
+</button>
+</div>
+
+<div id="sp-thanks" class="collapse">
+<ul>
+  <li>infobook(공략)</li>
+  <li>불바다(구:싼징)</li>
+  <li>엔케(5차 리뉴얼)</li>
+  <li>메탈</li>
+  <li>이젝션</li>
+  <li>옐로썬</li>
+  <li>폴로</li>
+  <li>코번</li>
+  <li>페다킨</li>
+</ul>
+</div>
+
+
+</div>

@@ -1,0 +1,15 @@
+<div class="other-page">
+
+<h1>IRC(Internet Relay Chat)</h1>
+
+<h2>IRC란?</h2>
+
+<p>인터넷을 통해 전세계 사람들과 대화를 나눌 수 있는 채팅 프로그램.</p>
+
+<p>채널: #red2</p>
+
+<p><a href="http://red2net.cafe24.com/gbd/bbs/board.php?bo_table=free&wr_id=1141623">ZeroIRC로 아얄씨 접속하기</a></p>
+
+<p><a href="http://red2net.cafe24.com/gbd/bbs/board.php?bo_table=free&wr_id=1141660">KVIrc로 야알씨 접속하기</a></p>
+
+</div>

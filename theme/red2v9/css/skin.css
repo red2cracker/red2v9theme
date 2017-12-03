@@ -1,0 +1,127 @@
+@charset "UTF-8";
+
+/* 스킨 스타일 */
+
+/* 모바일 로그인 */
+.outlogin-m {
+  margin-top: 0.5rem;
+  color: #fff;
+}
+
+.outlogin-m a {
+  color:#fff;
+}
+
+.outlogin-m a:focus, .outlogin-m a:hover {
+  color: #f00;
+  text-decoration: none;
+}
+
+
+
+.outlogin {
+  display: none;
+}
+
+/* 가로 스크롤 버그 해결 */
+/*.row-remove {
+  margin-left: 0;
+  margin-right: 0;
+}*/
+
+.border-test {
+  border: 1px solid #000;
+}
+
+
+
+
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+
+
+
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+
+/* 모바일 로그인은 태블릿부터 보이지 않음 */
+.outlogin-m {
+  display: none;
+}
+
+
+/* 태블릿, PC 로그인 */
+.outlogin {
+  display: block;
+  margin-bottom: 1rem;
+  background-color: #e6e6e6;
+  padding: 0.8rem;
+}
+
+.outlogin .form-control {
+  border: 1px solid #000;
+  border-radius: 0;
+}
+.outlogin .form-control:focus {
+  border: 1px solid #f00;
+}
+
+.outlogin .btn-login {
+  width: 100%;
+  border-radius: 0;
+  cursor: pointer;
+  transition: all 0.15s ease-in-out;
+}
+.outlogin .btn-login:hover {
+  color: #f00;
+}
+
+.outlogin-register {
+  margin: 0.5rem 0 0 0;
+  padding: 0;
+  display: flex;
+  list-style: none;
+}
+.outlogin-register li {
+  margin-right: 0.4rem;
+}
+.outlogin-register li:nth-child(2) {
+  margin-right: 0;
+}
+
+.outlogin-register a {
+  color:#000;
+}
+
+.outlogin-register a:focus, .outlogin-register a:hover {
+  color: #f00;
+  text-decoration: none;
+}
+
+
+
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+
+
+
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+
+
+}
+
+
+
+
+
+

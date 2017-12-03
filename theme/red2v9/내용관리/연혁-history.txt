@@ -1,0 +1,164 @@
+<div class="other-page">
+
+
+<h1>연혁(History)</h1>
+
+<table class="table history" summary="레드넷에서 일어난 일과 날짜">
+	<colgroup>
+		<col class="dateCol">
+		<col class="descCol">
+	</colgroup>
+	<tr>
+		<th>2002.07</th>
+		<td>
+			<h2>Red2.net 1.0</h2>
+			
+			<p>창립자 크래커가 제너럴 개발 소식을 듣고 Red2.net을 만듬.</p>
+    </td>
+	</tr>
+	<tr>
+		<th>2002.08.22</th>
+		<td>
+			<h2>Red2.net 2.0</h2>
+			
+			<p>흰색 배경. 단순한 메뉴.</p>
+      
+      <p><a href="http://goto2020.cdn1.cafe24.com/img/others/history/02.gif"><img src="http://goto2020.cdn1.cafe24.com/img/others/history/02s.gif" alt="Red2.net 2.0" /></a></p>
+    </td>
+	</tr>
+	<tr>
+		<th>2003.01.27</th>
+		<td>
+		  <h2>Red2.net 3.0</h2>
+		  
+			<p>검은색 배경. 제너럴 출시로 컨텐츠 강화.</p>
+      
+      <p><a href="http://goto2020.cdn1.cafe24.com/img/others/history/03.gif"><img src="http://goto2020.cdn1.cafe24.com/img/others/history/03s.gif" alt="Red2.net 3.0" /></a></p>
+		</td>
+	</tr>
+	<tr>
+		<th>2003.08.14</th>
+		<td>
+			<h2>Red2.net 4.0</h2>
+			
+			<ul>
+        <li>한달간 구상. 제로아워 추가.</li>
+        <li>트래픽 초과로 베로니카님에게 계정을 지원받음.</li>
+        <li>베로니카, 네플라이트, 합성수지, 쿨티즌, 카케님이 운영진에 합류.</li>
+      </ul>
+      
+      <p><a href="http://goto2020.cdn1.cafe24.com/img/others/history/04.gif"><img src="http://goto2020.cdn1.cafe24.com/img/others/history/04s.gif" alt="Red2.net 4.0" /></a></p>
+		</td>
+	</tr>
+	<tr>
+		<th>2004.01</th>
+		<td>
+			<h2>Red2.net 5.0</h2>
+			
+			<ul>
+			  <li>합성수지, 엔케님이 리뉴얼.</li>
+			  <li>쿨티즌의 실험실, 리플레이 자료실, 만화 추가.</li>
+			  <li>유준우, 루카스, 파랑새아리아, 뚱땡이보닌 VV님이 운영진에 합류.</li>
+			</ul>
+			
+			<p><a href="http://goto2020.cdn1.cafe24.com/img/others/history/05.gif"><img src="http://goto2020.cdn1.cafe24.com/img/others/history/05s.gif" alt="Red2.net 5.0" /></a></p>
+		</td>
+	</tr>
+	<tr>
+		<th>2006.09.25</th>
+		<td>
+			<h2>Red2.net 6.0</h2>
+			
+			<p>C&amp;C3 개발 소식과 사이트의 노후화로 리뉴얼 결정.</p>
+			<!-- <p>CSS 도입. 설문조사, 시안 제시, 사용성 테스트로 효율성을 높임.</p> -->
+			
+			<p><a href="http://goto2020.cdn1.cafe24.com/img/others/history/06.gif"><img src="http://goto2020.cdn1.cafe24.com/img/others/history/06s.gif" alt="Red2.net 6.0" /></a></p>
+		</td>
+	</tr>
+	<tr>
+		<th>2007.03.17</th>
+		<td>C&amp;C3 온로드웍스 유저 간담회 참가.</td>
+	</tr>
+	<tr>
+		<th>2007.05.25</th>
+		<td>제1회 C&amp;C 커뮤니티 랜파티(C&amp;C3) 참가.</td>
+	</tr>
+	<tr>
+		<th>2008.07.27</th>
+		<td>5차 제너럴 챌린지 리그 개최.</td>
+	</tr>
+	<tr>
+		<th>2008.08.15</th>
+		<td>제2회 C&amp;C 커뮤니티 랜파티(케인의 분노) 참가.</td>
+	</tr>
+	<tr>
+		<th>2009.01.31</th>
+		<td>제4회 C&amp;C 커뮤니티 랜파티(레드얼럿3) 참가.</td>
+	</tr>
+	<tr>
+		<th>2009.08.15</th>
+		<td>제5회 C&amp;C 커뮤니티 랜파티(레드얼럿3) 개최.</td>
+	</tr>
+	<tr>
+		<th>2010.01.25</th>
+		<td>
+			<h2>Red2.net 6.5</h2>
+			
+			<p>제로보드5 -> 그누보드로 데이터 이전.</p>
+			
+			<p><a href="http://goto2020.cdn1.cafe24.com/img/others/history/06-5.jpg"><img src="http://goto2020.cdn1.cafe24.com/img/others/history/06-5s.jpg" alt="Red2.net 6.5" /></a></p>
+		</td>
+	</tr>
+	<tr>
+		<th>2010.02.20</th>
+		<td>제6회 C&amp;C 커뮤니티 랜파티 개최.</td>
+	</tr>
+	<tr>
+		<th>2010.08.12</th>
+		<td>제1회 전국 제너럴 제로아워 리그 개최.</td>
+	</tr>
+	<tr>
+		<th>2010.08.22</th>
+		<td>Red2.net 8주년.</td>
+	</tr>
+	<tr>
+		<th>2011.07.16</th>
+		<td>제2회 전국 제너럴 제로아워 리그 참가.</td>
+	</tr>
+	<tr>
+		<th>2012.1.2</th>
+		<td>제3회 전국 제너럴 제로아워 리그 참가.</td>
+	</tr>
+	<tr>
+		<th>2012.7.1</th>
+		<td>레드넷배 아듀 GC 대회 개최.</td>
+	</tr>
+	<tr>
+		<th>2012.08.22</th>
+		<td>Red2.net 10주년.</td>
+	</tr>
+	<tr>
+		<th>2014.1</th>
+		<td>운영자 크래커, <a href="http://www.podbbang.com/ch/5799">우물파는 게이머들의 리뷰</a> 출연</td>
+	</tr>
+	<tr>
+		<th>2014.08.22</th>
+		<td>Red2.net 12주년.</td>
+	</tr>
+	<tr>
+		<th>2015.02.20</th>
+		<td>
+			<h2>Red2.net 7.0</h2>
+			
+			<ul>
+              <li>반응형 웹디자인 도입.</li>
+              <li>모바일 지원. 스마트폰, 태블릿에서도 접속 가능.</li>
+            </ul>
+			
+			<p><a href="http://goto2020.cdn1.cafe24.com/img/others/history/07.png"><img src="http://goto2020.cdn1.cafe24.com/img/others/history/07s.png" alt="Red2.net 7.0" /></a></p>
+		</td>
+	</tr>
+</table>
+
+
+</div>

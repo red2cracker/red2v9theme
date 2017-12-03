@@ -1,0 +1,165 @@
+@charset "utf-8";
+/* SIR 지운아빠 */
+
+/* 새글 스킨 (latest) */
+
+/*
+.lt_pc {float:left;margin-left:20px}
+.lt {position:relative;float:left;margin-bottom:20px;padding-bottom:10px;width:354px;height:150px;border-bottom:1px solid #e9e9e9}
+.lt ul {margin:0 0 10px;padding:0;list-style:none}
+.lt li {padding:3px 0}
+.lt .lt_title {display:block;padding:10px 0 8px}
+.lt .lt_more {position:absolute;top:10px;right:0}
+.lt .cnt_cmt {display:inline-block;margin:0 0 0 3px;font-weight:bold}
+*/
+
+.lt {
+  /* border: 1px solid #000; */
+  margin-bottom: 10px;
+}
+.lt h2 {
+  margin: 0px;
+  /*border-bottom: 1px solid #000;*/
+}
+.lt h2 a {
+  display: block;
+  width: 100%;
+}
+.lt ul {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	/* 창이 좁으면 흘러넘치지 않게 */
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+
+/* 최신글 링크색 설정*/
+.lt a:link, .lt a:visited {
+  color: #000; /* 00f; */
+  text-decoration: none;
+}
+.lt a:hover, .lt a:active {
+  color: #f00;
+  text-decoration: none;
+}
+
+.lt li {
+  padding: 4px;
+  padding-left: 7px;
+  background: url(img/list_bullet.png) no-repeat left;
+}
+/*
+.lt li a {
+  padding: 4px;
+  padding-left: 7px;
+  background: url(img/list_bullet.png) no-repeat left;
+}
+*/
+
+
+
+
+/* 최신글 */
+
+/* 다닥다닥 붙은것 때문에 아래 마진 추가 */
+.latest-row {
+  /*margin-bottom: 1rem;*/
+  /*padding-left: 0;
+  padding-right: 0;*/
+}
+
+
+
+.latest {
+  padding-left: 0;
+  padding-right: 0;
+  /*background-color: #ecf0f1;*/
+  /*padding-left: 0.6rem;
+  padding-right: 0.6rem;*/
+  /*border: 1px solid #000;*/
+  line-height: 1.7rem;
+}
+
+/* 최신글 메뉴 링크색 */
+.latest a {
+  color:#000;
+}
+
+.latest a:focus, .latest a:hover {
+  color: #f00;
+  text-decoration: none;
+}
+
+.latest h2 {
+  /*font-weight: bolder;*/
+  margin: 0;
+}
+
+.latest h2 a {
+  display: block;
+  /*padding-bottom: 0.2rem;*/
+  /* padding-left: 0.5rem; */
+  /*border-bottom: 2px solid #e6e6e6;*/
+  /*border-left: 5px solid #2567FC;*/
+}
+
+.latest ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.latest li {
+  background-image: url("img/list_bullet.png");
+  background-repeat: no-repeat;
+  background-position: left center;
+  padding-left: 0.6rem;
+  /*list-style-image: url('../img/list_bullet.png');*/
+}
+
+.latest li a {
+  /*display: block;*/
+  /*font-size: 1.2rem;*/
+}
+
+/* 지역 변수(?) */
+.latest .reply_num {
+  font-size: 0.8rem;
+  /*font-weight: bold;*/
+}
+
+/* 구글 개발자 도구로 찾음. 패딩 없음. */
+.latest-row article {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+/*
+article.col-md-6.latest {
+  padding-left: 0;
+  padding-right: 0;
+}
+*/
+
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+
+/* 태블릿에서 article의 패딩 제거 */
+.latest-row article {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+
+
+
+
+}
+
+
+
+
+

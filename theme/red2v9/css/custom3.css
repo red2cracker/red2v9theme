@@ -1,0 +1,552 @@
+
+
+
+body {
+  /*background:#262626;*/
+}
+
+a {
+  color: #00f;
+  text-decoration: none;
+}
+a:hover,
+a:focus {
+  color: #f00;
+  text-decoration: underline;
+}
+
+
+#wrapper-setting {
+  background:#262626;
+  height:100%;
+}
+
+/* 광범위한 설정을 위해 no-padding 으로 변경 */
+/*
+.container-padding {
+  padding: 0px;	
+}
+*/
+
+.no-padding {
+  padding: 0px;	
+}
+
+.container-bgcolor {
+  background-color: #fff;
+}
+
+.container-content-bgcolor {
+  background-color: #e6e6e6;;
+}
+
+.row-margin {
+  margin: 0px;
+}
+
+
+.navbar {
+  border: 0px;
+  margin-bottom: 0px;
+}
+
+#header-logo {
+  display: none;
+}
+
+/* 반응형 메뉴의 로고 처리 */
+.navbar-brand {
+  width: 211px; /* 로고 실제너비보다 약간 너 넓게 */
+  background: url(../img/red2logo_m.png) no-repeat left;
+  text-indent: -9999px;
+}
+
+
+/* 반전 네비게이션의 링크색 */
+/* 새로운 스타일을 만드는 대신 bootstrap.css의 기존 스타일을 수정하는게 잘 먹힌다. */
+.navbar-inverse .navbar-nav > li > a {
+  color: #fff; /* #9d9d9d 포토샵에서 찾음 */
+}
+.navbar-inverse .navbar-nav > li > a:hover,
+.navbar-inverse .navbar-nav > li > a:focus {
+  color: #f00;
+  background-color: transparent;
+}
+
+/* 스마트폰에서 하위 메뉴 링크 스타일 */
+/* 구글 크롬의 검사 기능으로 겨우 찾음 */
+
+.navbar-inverse .navbar-nav .open .dropdown-menu > li > a {
+  color: #fff;
+}
+
+.navbar-inverse .navbar-nav .open .dropdown-menu > li > a:hover,
+.navbar-inverse .navbar-nav .open .dropdown-menu > li > a:focus {
+  color: #f00;
+  background-color: transparent;
+}
+
+/*
+.dropdown-menu a {
+  color: #fff;
+}
+.dropdown-menu a:hover,
+.dropdown-menu a:focus {
+  color: #f00;
+}
+*/
+
+.sidebar {
+  padding: 0px;
+}
+
+#sidebar-menu {
+  background-color: #e6e6e6;
+}
+#sidebar-menu h2 {
+  margin: 0px;
+  padding:3px 7px;
+  /*color: #fff;
+  background-color: #06c;*/
+  color: #000;
+  /*background-color: #eee;*/
+  /*border-left: 5px solid #f00;*/
+}
+#sidebar-menu ul {
+  margin: 0px;
+  /*background-color: #666;*/
+}
+
+#sidebar-menu a {
+  color: #000;
+  text-decoration: none;
+
+  padding:3px 7px;
+  width:100%;
+  display:block;
+  /*border-bottom:1px solid #5a5a5a;*/
+}
+#sidebar-menu a:hover,
+#sidebar-menu a:focus {
+  color: #f00;
+}
+
+
+.content {
+  /*border: 1px solid #000;*/
+  /*background-color: #eee;*/
+  padding: 15px; /* 15px */
+}
+
+.content h2 {
+  margin-top: 0px;
+}
+
+#ol_before .form-group {
+  margin-bottom: 0px;
+}
+
+/*
+.link {
+  padding-left: 20px;
+  list-style: none;
+}*/
+
+/* 개별 페이지에는 별도의 스타일을 적용했다.
+그냥 하면 다른 페이지가 깨지니까.. */
+
+.other-page h1 {
+	margin-top: 0px;
+}
+.other-page a {
+  color: #00f;
+  text-decoration: none;
+}
+.other-page a:hover,
+.other-page a:focus {
+  color: #f00;
+  text-decoration: underline;
+}
+
+/* from style.css */
+
+/* 창 작을시 이미지, 유튜브 동영상 자동 크기조절 */
+
+.other-page img,
+.other-page iframe {
+  max-width: 100%;
+}
+
+
+
+/* SNS 목록 */
+
+#sns-list {
+  clear: both;
+  margin: 0px;
+  padding: 0px;
+}
+
+#sns-list a {
+  color: #3a3afd;
+  text-decoration: none;
+  /* font-size: 30px; */
+}
+#sns-list a:hover,
+#sns-list a:focus {
+  color: #f00;
+  text-decoration: underline;
+}
+
+/* 트위터 */
+/*
+#sns-list > li:nth-child(1) > a {
+  color: #00b0eb;
+  text-decoration: none;
+}
+#sns-list > li:nth-child(1) > a:hover,
+#sns-list > li:nth-child(1) > a:focus {
+  color: #f00;
+  text-decoration: none;
+}*/
+
+/* 페이스북 */
+/*
+#sns-list > li:nth-child(2) > a {
+  color: #3b5897;
+  text-decoration: none;
+}
+#sns-list > li:nth-child(2) > a:hover,
+#sns-list > li:nth-child(2) > a:focus {
+  color: #f00;
+  text-decoration: none;
+}*/
+
+/* 블로그 */
+/*
+#sns-list > li:nth-child(3) > a {
+  color: #00c73c;
+  text-decoration: none;
+}
+#sns-list > li:nth-child(3) > a:hover,
+#sns-list > li:nth-child(3) > a:focus {
+  color: #f00;
+  text-decoration: none;
+}*/
+
+/* 유튜브 */
+/*
+#sns-list > li:nth-child(4) > a {
+  color: #bd0000;
+  text-decoration: none;
+}
+#sns-list > li:nth-child(4) > a:hover,
+#sns-list > li:nth-child(4) > a:focus {
+  color: #f00;
+  text-decoration: none;
+}*/
+
+/* 깃북 */
+/*
+#sns-list > li:nth-child(4) > a {
+  color: #3581ff;
+  text-decoration: none;
+}
+#sns-list > li:nth-child(4) > a:hover,
+#sns-list > li:nth-child(4) > a:focus {
+  color: #f00;
+  text-decoration: none;
+}*/
+
+/*
+#search #cse-keyword {
+  border: 5px solid #fff;
+  font-size: 15px;
+}*/
+
+
+.footer {
+  color: #fff;
+  background-color: #333;
+  padding: 8px;
+}
+.footer p {
+  margin: 0px;
+  /*font-weight: bold;*/
+}
+
+.footer a:link, .footer a:visited {
+  color: #fff;
+  text-decoration: none;
+}
+.footer a:hover, .footer a:active {
+  color: #f00;
+  text-decoration: none;
+}
+
+
+/* 회원로그인(임시) */
+
+/*
+#ol_before {
+  margin: 0px;
+  padding: 10px;
+  border: 1px solid #000;
+}
+#ol_before h2 {
+  display: none;
+}
+#ol_submit {
+	width: 100%;
+	height: 34px;
+	background: #333;
+	color: #fff;
+	border: 0px;
+}
+
+#ol_before a {
+  color: #000;
+  text-decoration: none;
+}
+#ol_before a:hover,
+#ol_before a:focus {
+  color: #f00;
+}
+*/
+
+/* 구글검색 버튼 */
+#cse-search-button {
+  padding: 1px 7px;
+}
+
+/* 회원가입 페이지(register_form.php) 자동등록방지 입력창 크기 조절 */
+#captcha #captcha_key {
+  width: auto; /* 70px */
+}
+
+
+#ol_before, #ol_after {
+	display: none;
+}
+
+/* 내용관리 테두리 제거 */
+#ctt {
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+}
+
+
+/* 하단 배너 */
+.banner-bottom {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+
+@media (min-width: 768px) {
+
+
+.container {
+  width: auto;
+}
+
+/*
+.other-page img {
+	width: auto;
+}
+*/
+
+#header-logo {
+  margin: 0;
+  display: block;
+  background-color: #fff;
+  width: 279px;
+  height: 77px;
+}
+
+#header-logo a {
+  margin: 0;
+  padding: 0;
+  width: 279px;
+  height: 77px;
+  display: block;
+  background: url(../img/red2logo.png) no-repeat left;
+  text-indent: -9999px;
+}
+
+.navbar {
+  border-radius: 0px;
+  margin-bottom: 0px;
+  /*min-height: 38px;*/
+}
+
+.navbar-brand {
+  display: none;
+}
+
+.navbar-collapse {
+  padding-left: 0px;
+  padding-right: 0px;  
+}
+
+/* 반전 네비게이션의 링크색 */
+/* 새로운 스타일을 만드는 대신 bootstrap.css의 기존 스타일을 수정하는게 잘 먹힌다. */
+.navbar-inverse .navbar-nav > li > a {
+  color: #fff; /* #9d9d9d 포토샵에서 찾음 */
+  font-weight: bold;
+  font-family: "Helvetica Neue", Helvetica, Arial,"NanumBarunGothic",  sans-serif;
+}
+.navbar-inverse .navbar-nav > li > a:hover,
+.navbar-inverse .navbar-nav > li > a:focus {
+  color: #f00;
+  background-color: transparent;
+}
+
+
+.dropdown-menu {
+  background-color: #222;
+  border: 0px;
+  /*border-radius: 0px;*/
+  border-top: 1px solid #000;
+}
+.dropdown-menu > li > a {
+  padding: 5px 20px;
+  color: #fff;
+}
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus {
+  color: #f00;
+  background-color: transparent;
+}
+
+
+/* 글로벌 네비게이션 텍스트 굵게 */
+
+.nav > li > a {
+  /*width: 120px;*/
+  /* font-weight: bold; */
+  /* font-family: "Helvetica Neue", Helvetica, Arial,"NanumBarunGothic",  sans-serif; */
+}
+
+
+/*
+.nav > li > a {
+  width:120px;
+}
+*/
+
+
+
+/* 메뉴에 커서를 올리면 하위 메뉴가 뜨게(중요) */
+ul.nav li.dropdown:hover > ul.dropdown-menu{
+  display: block;
+  margin: 0;
+}
+
+/* 검색창 마진 제거 */
+.navbar-form-search {
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
+#ol_before_m, #ol_after_m {
+	display: none;
+}
+
+
+/*
+#cse-search-box {
+	float: right;
+	padding-right: 10px;
+	border: 1px solid #fff;
+}
+*/
+
+/*
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus {
+  color: #f00;
+}
+*/
+
+/*
+.navbar-nav > li > a {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+*/
+
+/*
+.nav > li > a {
+  width:93px;
+  height:50px;
+  line-height:38px;
+  padding: 0px;
+}
+*/
+
+
+.sidebar {
+  /*border: 1px solid #000;*/
+  /*background-color: #ddd;*/
+  /*background-color: #e6e6e6;*/
+  padding: 0px;
+  float: left;
+}
+
+.sidebar h2 {
+  margin-top: 0px;
+}
+
+
+
+
+
+
+
+.content {
+  /*border: 1px solid #000;*/
+  /*background-color: #eee;*/
+  /* 메인 펼치고 마우스가 h1에 닿으면 하위메뉴가 사라지는 문제 해결 */
+  padding: 15px; /* 15px */
+  float: right;
+}
+
+.content h2 {
+  margin-top: 0px;
+}
+
+
+#ol_before, #ol_after {
+	display: block;
+}
+
+
+}
+
+
+@media (min-width: 992px) {
+
+.container {
+  width: auto;
+}
+
+/* 네비게이션 왼쪽 여백(메뉴 펼치면 사이드바 가리지 않게) */
+.navbar-collapse {
+  padding-right: 0px;
+  padding-left: 185px;
+}
+
+}
+
+
+@media (min-width: 1200px) {
+
+.container {
+  width: 1170px;
+}
+
+}
+
+
