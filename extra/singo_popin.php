@@ -22,9 +22,9 @@ add_stylesheet('<link rel="stylesheet" href="singo_poppin.css">', 0);
     <input type="hidden" name="bo_table" value="<?php echo $bo_table ?>">
     <input type="hidden" name="wr_id" value="<?php echo $wr_id ?>">
     <input type="hidden" name="co_id" value="<?php echo $co_id ?>">
-		<div class="frm_hd">
-			신고의 사유와 하실 말씀을 적어 주세요
-		</div>
+		<h1 class="frm_hd">
+			신고 이유와 하실 말씀
+		</h1>
 		<div class="frm_ct">
 			<div class="item">
 				<p>
