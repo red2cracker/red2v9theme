@@ -23,7 +23,7 @@ add_stylesheet('<link rel="stylesheet" href="singo_poppin.css">', 0);
     <input type="hidden" name="wr_id" value="<?php echo $wr_id ?>">
     <input type="hidden" name="co_id" value="<?php echo $co_id ?>">
 		<h1 class="frm_hd">
-			신고 이유와 하실 말씀
+			신고 이유와 할 말
 		</h1>
 		<div class="frm_ct">
 			<div class="item">
@@ -41,7 +41,7 @@ add_stylesheet('<link rel="stylesheet" href="singo_poppin.css">', 0);
 			</div>
 		</div>
 		<div class="frm_tl">
-			<input type="submit" class="submit" accesskey="s" value="보내기" />
+			<input type="submit" class="submit" accesskey="s" value="쪽지 보내기" />
 		</div>
     </form>
 </div>

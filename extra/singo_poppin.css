@@ -31,6 +31,7 @@
   width: 100%;
   padding: 5px;
   border: 1px solid #000;
+  margin: 0px;
 }
 
 .grz_frm .frm_tl .submit {
@@ -39,6 +40,7 @@
   background-color: #ff3061;
   color: #fff;
   cursor: pointer;
+  margin-top: 15px;
 }
 
 
