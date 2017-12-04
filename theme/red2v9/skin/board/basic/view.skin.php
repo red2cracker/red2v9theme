@@ -34,6 +34,7 @@ add_stylesheet('<link rel="stylesheet" href="'.$board_skin_url.'/style.css">', 0
           <li><span class="sound_only">작성일</span><?php echo date("y-m-d H:i", strtotime($view['wr_datetime'])) ?></li>
           <li>조회 <?php echo number_format($view['wr_hit']) ?></li>
           <li>댓글 <?php echo number_format($view['wr_comment']) ?></li>
+		  <li><a onclick="popup_window(this.href,'win_singo','left=100,top=100,width=600,height=330,scrollbars=0'); return false;" href="../extra/singo_popin.php?bo_table=<?=$bo_table?>&wr_id=<?=$wr_id?>">신고</a></li>
 		</ul>
 		
     </section>
