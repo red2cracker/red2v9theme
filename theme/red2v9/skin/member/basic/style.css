@@ -432,3 +432,15 @@
 	
 }
 
+
+
+/* memo_form.php */
+/* 쪽지쓰기 - 받는 회원 아이디 입력창 IE11 깨짐 수정 */
+#me_recv_mb_id {
+  padding: 3px;
+  height: 34px;
+  border:1px solid #e4eaec;
+}
+
+
+
