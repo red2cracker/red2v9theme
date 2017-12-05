@@ -31,12 +31,14 @@ add_stylesheet('<link rel="stylesheet" href="'.$member_skin_url.'/style.css">', 
             <th scope="row"><label for="me_memo">내용</label></th>
             <td><textarea name="me_memo" id="me_memo" required class="required"><?php echo $content ?></textarea></td>
         </tr>
+		<!--
         <tr>
             <th scope="row">자동등록방지</th>
             <td>
                 <?php echo captcha_html(); ?>
             </td>
         </tr>
+		-->
         </tbody>
         </table>
     </div>
