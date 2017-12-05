@@ -441,6 +441,19 @@
   height: 34px;
   border:1px solid #e4eaec;
 }
+/* 쪽지 내용 */
+#me_memo {
+  line-height: 1.4rem;
+}
+
+/* 아이디/비밀번호 찾기 이메일 주소 입력 */
+#mb_email {
+  padding: 3px;
+  width: 234px;
+  height: 34px;
+  border:1px solid #e4eaec;
+}
+
 
 
 
