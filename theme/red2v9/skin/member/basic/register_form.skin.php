@@ -72,7 +72,7 @@ add_stylesheet('<link rel="stylesheet" href="'.$member_skin_url.'/style.css">', 
 
 
 
-
+<!--
 <div>
 <label for="reg_mb_name"><strong>이름 <span class="mbskin-new-required">*</span></strong></label>
 </div>
@@ -83,7 +83,7 @@ add_stylesheet('<link rel="stylesheet" href="'.$member_skin_url.'/style.css">', 
 <div>
                 <input type="text" id="reg_mb_name" name="mb_name" value="<?php echo get_text($member['mb_name']) ?>" <?php echo $required ?> <?php echo $readonly; ?> class="mbskin-new-input">
 </div>
-
+-->
 
 
 
@@ -248,12 +248,12 @@ add_stylesheet('<link rel="stylesheet" href="'.$member_skin_url.'/style.css">', 
         }
 
         // 이름 검사
-        if (f.w.value=="") {
+        /*if (f.w.value=="") {
             if (f.mb_name.value.length < 1) {
                 alert("이름을 입력하십시오.");
                 f.mb_name.focus();
                 return false;
-            }
+            }*/
 
             /*
             var pattern = /([^가-힣\x20])/i;
@@ -263,7 +263,7 @@ add_stylesheet('<link rel="stylesheet" href="'.$member_skin_url.'/style.css">', 
                 return false;
             }
             */
-        }
+        /*}*/
 
         <?php if($w == '' && $config['cf_cert_use'] && $config['cf_cert_req']) { ?>
         // 본인확인 체크
