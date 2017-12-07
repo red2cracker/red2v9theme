@@ -330,7 +330,7 @@ _:-ms-fullscreen, :root #cse-search-button {
   /*border: 1px solid #000;*/
   /*margin-bottom: 1.35rem;*/
   /*flex-wrap: wrap;*/ /* 밀리는 방식을 왼쪽으로. HTML+CSS 디자인 책 참고 */
-}
+/*}*/
 
 /*.sns-link li {
   margin-right: 0.5rem;
