@@ -44,6 +44,7 @@ include_once(G5_THEME_PATH.'/head.php');
 </div>
 
 <!-- SNS 링크(목록대신 문단과 | 사용) -->
+<!-- https://www.youtube.com/yt/about/brand-resources/#logos-icons-colors -->
 <ul class="sns-link">
   <li class="sns_logo_twitter"><a href="https://twitter.com/red2cracker">트위터</a></li>
   <li class="sns_logo_facebook"><a href="https://www.facebook.com/red2network/">페이스북</a></li>
