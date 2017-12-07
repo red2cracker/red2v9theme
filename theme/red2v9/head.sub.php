@@ -66,7 +66,7 @@ if($config['cf_add_meta'])
 <link rel="stylesheet" href="<?php echo G5_THEME_CSS_URL; ?>/style.css">
 <!-- <link rel="stylesheet" href="<?php echo G5_THEME_CSS_URL; ?>/skin.css"> -->
 <!--  시안에 쓰던 skin.css 는 이제 필요없다. -->
-<link rel="shortcut icon" href="<?php echo G5_THEME_IMG_URL; ?>/red2fav.ico" type="image/x-icon" />
+<link rel="shortcut icon" href="<?php echo G5_THEME_IMG_URL; ?>/red2fav02.ico" type="image/x-icon" />
 <!-- 파비콘. 경로에 상수 사용 -->
 <link rel="apple-touch-icon" href="<?php echo G5_THEME_IMG_URL; ?>/red2fav_m.png">
 <!-- 스마트폰 홈 파비콘. 경로에 상수 사용 -->
