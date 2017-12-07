@@ -44,13 +44,14 @@ include_once(G5_THEME_PATH.'/head.php');
 </div>
 
 <!-- SNS 링크(목록대신 문단과 | 사용) -->
-<p class="sns-link">
-  <a href="https://twitter.com/red2cracker">트위터</a> | 
-  <a href="https://www.facebook.com/red2network/">페이스북</a> | 
-  <a href="http://blog.naver.com/scabbard2">블로그</a> | 
-  <a href="http://www.youtube.com/red2cracker">유튜브</a> | 
-  <a href="https://discord.gg/F5ZcCwC">디스코드</a>
-</p>
+<ul class="sns-link">
+  <li class="sns_logo_twitter"><a href="https://twitter.com/red2cracker">트위터</a></li>
+  <li class="sns_logo_facebook"><a href="https://www.facebook.com/red2network/">페이스북</a></li>
+  <li class="sns_logo_blog"><a href="http://blog.naver.com/scabbard2">블로그</a></li>
+  <li class="sns_logo_youtube"><a href="http://www.youtube.com/red2cracker">유튜브</a></li>
+  <li class="sns_logo_discord"><a href="https://discord.gg/F5ZcCwC">디스코드</a></li>
+  <li class="sns_logo_moddb"><a href="http://www.moddb.com/mods/korean-war-2">모드DB</a></li>
+</ul>
 
 
 

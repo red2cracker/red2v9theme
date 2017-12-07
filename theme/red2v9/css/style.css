@@ -262,6 +262,7 @@ _:-ms-fullscreen, :root #cse-search-button {
 
 /* 푸터밖에 있는 SNS 링크 */
 
+
 .sns-link a:link, .sns-link a:visited {
   color: #00f;
 }
@@ -272,9 +273,52 @@ _:-ms-fullscreen, :root #cse-search-button {
 }
 
 .sns-link {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
   margin: 0px;
   padding: 0px;
+  list-style: none;
+  margin-top: 1rem;
 }
+
+.sns-link .sns_logo_twitter {
+  background-image: url("../img/sns/sns_logo_twitter.png");
+}
+.sns-link .sns_logo_facebook {
+  background-image: url("../img/sns/sns_logo_facebook.png");
+}
+.sns-link .sns_logo_blog {
+  background-image: url("../img/sns/sns_logo_naver_blog.png");
+}
+.sns-link .sns_logo_youtube {
+  background-image: url("../img/sns/sns_logo_youtube.png");
+}
+.sns-link .sns_logo_discord {
+  background-image: url("../img/sns/sns_logo_discord.png");
+}
+.sns-link .sns_logo_moddb {
+  background-image: url("../img/sns/sns_logo_moddb.png");
+}
+
+
+.sns-link li {
+  background-repeat: no-repeat;
+  text-indent: -9999px;
+  margin-right: 0.5rem;
+}
+.sns-link li:last-child {
+  margin-right: 0;
+}
+.sns-link li a {
+  display: block;
+  width: 30px;
+  height: 30px;
+}
+
+
+
+
 
 /*.sns-link {
   display: flex;
@@ -301,6 +345,13 @@ _:-ms-fullscreen, :root #cse-search-button {
     content: " | ";
 }
 */
+
+
+
+
+
+
+
 
 
 
