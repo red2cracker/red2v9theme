@@ -251,5 +251,34 @@ function excute_good(href, $el, $tx)
         }, "json"
     );
 }
+
+//alert('TEST');
+
+/*
+var src = $('#bo_v_con img').eq(0).attr('src');
+$('#bo_v_con img').eq(0).wrap('<a href="' + src + '" />');
+
+var src1 = $('#bo_v_con img').eq(1).attr('src');
+$('#bo_v_con img').eq(1).wrap('<a href="' + src1 + '" />');
+
+var src2 = $('#bo_v_con img').eq(2).attr('src');
+$('#bo_v_con img').eq(2).wrap('<a href="' + src2 + '" />');
+*/
+
+/* 함수 : IMG SRC 태그로 넣은 이미지가 확대되게 */
+function imageGetAnchor() {
+
+  var imageCount = $('#bo_v_con img').length -1;
+
+  for (var i = 0; i <= imageCount; i++) {
+    var srcTotal = $('#bo_v_con img').eq(i).attr('src');
+	$('#bo_v_con img').eq(i).wrap('<a href="' + srcTotal + '" />');
+  }
+
+}
+
+/* 함수 호출 */
+imageGetAnchor();
+
 </script>
 <!-- } 게시글 읽기 끝 -->
