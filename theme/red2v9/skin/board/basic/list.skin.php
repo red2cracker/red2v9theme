@@ -182,7 +182,7 @@ if ($wr_id == $list[$i]['wr_id'])
 
 <!-- 게시판 검색 시작 { -->
 <fieldset id="bo_sch">
-    <legend>게시물 검색</legend>
+    <legend>게시물 검색</legend><!-- 버그 원인 -->
 
     <form name="fsearch" method="get">
     <input type="hidden" name="bo_table" value="<?php echo $bo_table ?>">
