@@ -195,9 +195,13 @@ _:-ms-fullscreen, :root #cse-search-button {
 }
 
 /* 테스트용 */
+/*
 .div-border > div {
-  /*border: 1px solid #f00;*/
+  border: 1px solid #f00;
 }
+.div-border * {
+  border: 1px solid #000;
+}*/
 
 .div-border {
   margin-top: 1rem;

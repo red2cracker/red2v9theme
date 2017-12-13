@@ -863,6 +863,18 @@ html.no-overflowscrolling #autosave_pop {height:auto;max-height:10000px !importa
 }
 
 /* 게시판 검색창 */
+
+#bo_sch * {
+  /*border: 1px solid #f00;*/ /* 디버깅용 */
+  /*width: 400px;*/ /* 요렇게 하니 버그 없어짐. 어설프지만.. */
+}
+/* 드디어 해결! 리전드를 제거하니 수평 스크롤이 없어졌다. */
+#bo_sch legend {
+  display: none;
+}
+
+
+
 #bo_sch .bo_sch_keyword {
   padding: 3px;
   border: 1px solid #000;
