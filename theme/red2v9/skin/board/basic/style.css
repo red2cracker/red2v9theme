@@ -869,6 +869,7 @@ html.no-overflowscrolling #autosave_pop {height:auto;max-height:10000px !importa
   /*width: 400px;*/ /* 요렇게 하니 버그 없어짐. 어설프지만.. */
 }
 /* 드디어 해결! 리전드를 제거하니 수평 스크롤이 없어졌다. */
+/* IE11 개발자 도구에서 legend 제거로 찾음 */
 #bo_sch legend {
   display: none;
 }
