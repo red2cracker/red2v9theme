@@ -34,7 +34,7 @@ add_stylesheet('<link rel="stylesheet" href="'.$member_skin_url.'/style.css">', 
     </p>
 
     <p>
-        회원 탈퇴는 정보 수정에서 가능하며 일정기간이 지난 후, 회원님의 정보는 삭제하고 있습니다.<br>
+        회원 탈퇴는 정보 수정에서 가능하며 일정기간이 지난 후, 회원님의 정보는 삭제합니다.<br>
         감사합니다.
     </p>
 
