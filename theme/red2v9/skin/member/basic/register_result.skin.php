@@ -9,7 +9,7 @@ add_stylesheet('<link rel="stylesheet" href="'.$member_skin_url.'/style.css">', 
 <div id="reg_result" class="mbskin">
 
     <p>
-        <strong><?php echo get_text($mb['mb_name']); ?></strong>님의 회원가입을 진심으로 축하합니다.<br>
+        <strong><?php echo get_text($mb['mb_name']); ?></strong>님의 회원가입이 완료되었습니다.<br>
     </p>
 
     <?php if ($config['cf_use_email_certify']) {  ?>
@@ -34,7 +34,7 @@ add_stylesheet('<link rel="stylesheet" href="'.$member_skin_url.'/style.css">', 
     </p>
 
     <p>
-        회원 탈퇴는 언제든지 가능하며 일정기간이 지난 후, 회원님의 정보는 삭제하고 있습니다.<br>
+        회원 탈퇴는 정보 수정에서 가능하며 일정기간이 지난 후, 회원님의 정보는 삭제하고 있습니다.<br>
         감사합니다.
     </p>
 
