@@ -362,6 +362,32 @@
 	cursor: pointer;
 }
 
+.reg_mb_leave {
+	width: 100px;
+	/*height: 34px;*/
+	border: 0px;
+	color: #f00;
+	background-color: #2567FC;
+	margin-top: 20px;
+	padding: 3px;
+	font-size: 1.3rem;
+	text-align: center;
+}
+
+.reg_mb_leave a:link,
+.reg_mb_leave a:visited {
+  color: #fff;
+  text-decoration: none;
+}
+.reg_mb_leave a:hover,
+.reg_mb_leave a:active {
+  color: #f00;
+  text-decoration: none;
+}
+
+
+
+
 
 
 /* Small devices (landscape phones, 576px and up) */

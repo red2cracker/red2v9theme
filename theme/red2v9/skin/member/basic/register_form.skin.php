@@ -148,6 +148,8 @@ add_stylesheet('<link rel="stylesheet" href="'.$member_skin_url.'/style.css">', 
 	
 	
 
+	
+	
 
 <div>
 
@@ -156,6 +158,12 @@ add_stylesheet('<link rel="stylesheet" href="'.$member_skin_url.'/style.css">', 
 </div>
 
 
+
+<?php if($w != '') { ?>
+<div class="reg_mb_leave">
+<a href="javascript:member_leave();">회원탈퇴</a>
+</div>
+<?php } // tto?>
 
 
 
