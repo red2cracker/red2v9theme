@@ -10,6 +10,10 @@ html {
   /*overflow-x: hidden;*/
 }
 
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 600;
+}
+
 /* 창 작을시 이미지, 유튜브 동영상 자동 크기조절 */
 img,
 iframe {
