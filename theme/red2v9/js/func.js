@@ -1,0 +1,1 @@
+$("#no-fouc").delay(250).animate({"opacity": "1"}, 250);

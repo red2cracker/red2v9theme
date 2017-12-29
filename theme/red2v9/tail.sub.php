@@ -20,6 +20,8 @@ $(function() {
 </script>
 <![endif]-->
 
+<script src="<?php echo G5_THEME_JS_URL ?>/func.js"></script>
+
 </body>
 </html>
 <?php echo html_end(); // HTML 마지막 처리 함수 : 반드시 넣어주시기 바랍니다. ?>
