@@ -100,7 +100,7 @@
 #bo_list .td_mng {width:80px;text-align:center}
 #bo_list .td_name {width:100px;text-align:left}
 #bo_list .td_nick {width:100px;text-align:center}
-#bo_list .td_num {width:50px;text-align:center}
+#bo_list .td_num {width:60px;text-align:center}
 #bo_list .td_numbig {width:80px;text-align:center}
 
 #bo_list .txt_active {color:#5d910b}
@@ -408,7 +408,33 @@ html.no-overflowscrolling #autosave_pop {height:auto;max-height:10000px !importa
 #bo_vc .member, #bo_vc .guest, #bo_vc .sv_member, #bo_vc .sv_guest {font-weight:bold}
 .bo_vc_hdinfo {display:inline-block;margin:0 15px 0 5px}
 #bo_vc h1 {position:absolute;font-size:0;line-height:0;overflow:hidden}
-#bo_vc a {color:#000;text-decoration:none}
+
+/* 댓글부분 링크 스타일 */
+
+#bo_vc a {
+  color:#00f;
+  text-decoration:none;
+}
+#bo_vc a:hover {
+  color:#f00;
+  text-decoration:none;
+}
+
+/*
+.sv_member a:link,
+.sv_member a:visited {
+  color:#00f;
+  text-decoration:none;
+}
+.sv_member a:hover,
+.sv_member a:active {
+  color:#f00;
+  text-decoration:none;
+}
+*/
+
+
+
 #bo_vc p {padding:0 0 5px;line-height:1.8em}
 #bo_vc p a {text-decoration:underline}
 #bo_vc p a.s_cmt {text-decoration:none}

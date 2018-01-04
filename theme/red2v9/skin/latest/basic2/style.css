@@ -79,7 +79,8 @@
   /*padding-left: 0.6rem;
   padding-right: 0.6rem;*/
   /*border: 1px solid #000;*/
-  line-height: 1.7rem;
+  line-height: 1.9rem; /* 1.7rem; */
+  margin-bottom: 15px;
 }
 
 /* 최신글 메뉴 링크색 */
