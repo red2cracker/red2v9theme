@@ -47,8 +47,8 @@ if (G5_IS_MOBILE) {
         <h2>메인</h2>
 
         <ul>
-          <li><a href="#">뉴스</a></li>
-          <li><a href="#">공지사항</a></li>
+          <li><a href="http://red2.net/gnuboard5/bbs/board.php?bo_table=news">뉴스</a></li>
+          <li><a href="http://red2.net/gnuboard5/bbs/board.php?bo_table=notice">공지사항</a></li>
         </ul>
       </nav>
 

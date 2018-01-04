@@ -47,14 +47,14 @@ if (G5_IS_MOBILE) {
         <h2>자료실</h2>
 
         <ul>
-          <li><a href="#">패치</a></li>
-		  <li><a href="#">모드</a></li>
-		  <li><a href="#">모드 툴</a></li>
-		  <li><a href="#">맵</a></li>
-		  <li><a href="#">리플레이</a></li>
-		  <li><a href="#">OST</a></li>
-		  <li><a href="#">게임</a></li>
-		  <li><a href="#">기타</a></li>
+          <li><a href="http://red2.net/gnuboard5/bbs/board.php?bo_table=patch">패치</a></li>
+		  <li><a href="http://red2.net/gnuboard5/bbs/board.php?bo_table=mod">모드</a></li>
+		  <li><a href="http://red2.net/gnuboard5/bbs/board.php?bo_table=mod_tool">모드 툴</a></li>
+		  <li><a href="http://red2.net/gnuboard5/bbs/board.php?bo_table=map">맵</a></li>
+		  <li><a href="http://red2.net/gnuboard5/bbs/board.php?bo_table=replay">리플레이</a></li>
+		  <li><a href="http://red2.net/gnuboard5/bbs/board.php?bo_table=ost">OST</a></li>
+		  <li><a href="http://red2.net/gnuboard5/bbs/board.php?bo_table=game">게임</a></li>
+		  <li><a href="http://red2.net/gnuboard5/bbs/board.php?bo_table=other">기타</a></li>
         </ul>
       </nav>
 

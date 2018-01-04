@@ -27,21 +27,40 @@ include_once(G5_THEME_PATH.'/head.php');
 		
 <div class="row row-remove latest-row">
 		
-<?php echo latest('theme/basic2', test, 4, 25); ?>
+<?php echo latest('theme/basic2', news, 4, 25); ?>
 
-<?php echo latest('theme/basic2', test2, 4, 25); ?>
+<?php echo latest('theme/basic2', notice, 4, 25); ?>
 
 </div>
 
 
 <div class="row row-remove latest-row">
 		
-<?php echo latest('theme/basic2', test3, 4, 25); ?>
+<?php echo latest('theme/basic2', free, 4, 25); ?>
+
+<?php echo latest('theme/basic2', cnc, 4, 25); ?>
+
+</div>
+
+
+<div class="row row-remove latest-row">
+		
+<?php echo latest('theme/basic2', qna, 4, 25); ?>
+
+<?php echo latest('theme/basic2', mod, 4, 25); ?>
+
+</div>
+
+
+<!-- <div class="row row-remove latest-row"> -->
+		
+<?//php echo latest('theme/basic2', test3, 4, 25); ?>
 
 <!-- 최근게시물 -->
 <?php //include_once(G5_BBS_PATH.'/new_main.php'); ?>
 
-</div>
+<!-- </div> -->
+
 
 <!-- SNS 링크(목록대신 문단과 | 사용) -->
 <!-- https://www.youtube.com/yt/about/brand-resources/#logos-icons-colors -->

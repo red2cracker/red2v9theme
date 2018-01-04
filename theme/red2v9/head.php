@@ -34,8 +34,8 @@ include_once(G5_LIB_PATH.'/popular.lib.php');
           메인
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-          <a class="dropdown-item" href="#">뉴스</a>
-          <a class="dropdown-item" href="#">공지사항</a>
+          <a class="dropdown-item" href="http://red2.net/gnuboard5/bbs/board.php?bo_table=news">뉴스</a>
+          <a class="dropdown-item" href="http://red2.net/gnuboard5/bbs/board.php?bo_table=notice">공지사항</a>
           <!-- <a class="dropdown-item" href="#">게임 리그</a> -->
         </div>
       </li>
@@ -75,11 +75,11 @@ include_once(G5_LIB_PATH.'/popular.lib.php');
           커뮤니티
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-          <a class="dropdown-item" href="#">자유 게시판</a>
-          <a class="dropdown-item" href="#">C&amp;C 게시판</a>
-          <a class="dropdown-item" href="#">Q&amp;A 게시판</a>
-          <a class="dropdown-item" href="#">팬픽</a>
-          <a class="dropdown-item" href="#">건의사항</a>
+          <a class="dropdown-item" href="http://red2.net/gnuboard5/bbs/board.php?bo_table=free">자유 게시판</a>
+          <a class="dropdown-item" href="http://red2.net/gnuboard5/bbs/board.php?bo_table=cnc">C&amp;C 게시판</a>
+          <a class="dropdown-item" href="http://red2.net/gnuboard5/bbs/board.php?bo_table=qna">Q&amp;A 게시판</a>
+          <a class="dropdown-item" href="http://red2.net/gnuboard5/bbs/board.php?bo_table=comic">팬픽</a>
+          <a class="dropdown-item" href="http://red2.net/gnuboard5/bbs/board.php?bo_table=suggest">건의사항</a>
           <a class="dropdown-item" href="http://red2.net/comm2/link.html">링크</a>
         </div>
       </li>
@@ -88,14 +88,14 @@ include_once(G5_LIB_PATH.'/popular.lib.php');
           자료실
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-          <a class="dropdown-item" href="http://red2.net/gnuboard5/bbs/board.php?bo_table=test3">패치</a>
-          <a class="dropdown-item" href="#">모드</a>
-          <a class="dropdown-item" href="#">모드 툴</a>
-          <a class="dropdown-item" href="#">맵</a>
-          <a class="dropdown-item" href="http://localhost/gnuboard5/bbs/board.php?bo_table=replay">리플레이</a>
-          <a class="dropdown-item" href="#">OST</a>
-          <a class="dropdown-item" href="#">게임</a>
-          <a class="dropdown-item" href="#">기타</a>
+          <a class="dropdown-item" href="http://red2.net/gnuboard5/bbs/board.php?bo_table=patch">패치</a>
+          <a class="dropdown-item" href="http://red2.net/gnuboard5/bbs/board.php?bo_table=mod">모드</a>
+          <a class="dropdown-item" href="http://red2.net/gnuboard5/bbs/board.php?bo_table=mod_tool">모드 툴</a>
+          <a class="dropdown-item" href="http://red2.net/gnuboard5/bbs/board.php?bo_table=map">맵</a>
+          <a class="dropdown-item" href="http://red2.net/gnuboard5/bbs/board.php?bo_table=replay">리플레이</a>
+          <a class="dropdown-item" href="http://red2.net/gnuboard5/bbs/board.php?bo_table=ost">OST</a>
+          <a class="dropdown-item" href="http://red2.net/gnuboard5/bbs/board.php?bo_table=game">게임</a>
+          <a class="dropdown-item" href="http://red2.net/gnuboard5/bbs/board.php?bo_table=other">기타</a>
         </div>
       </li>
       <!--

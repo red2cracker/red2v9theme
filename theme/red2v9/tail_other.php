@@ -51,7 +51,7 @@ if (G5_IS_MOBILE) {
 		  <li><a href="http://red2.net/other2/staff.html">운영진</a></li>
 		  <li><a href="http://red2.net/other2/history.html">연혁</a></li>
 		  <li><a href="http://red2.net/other2/donation.html">후원하기</a></li>
-		  <li><a href="http://red2.net/gnuboard5/bbs/board.php?bo_table=sp">후원자 명단</a></li>
+		  <li><a href="http://red2.net/gnuboard5/bbs/board.php?bo_table=sponsor">후원자 명단</a></li>
 		  <li><a href="http://red2.net/other2/rules.html">회칙</a></li>
         </ul>
       </nav>
