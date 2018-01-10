@@ -517,7 +517,7 @@ html.no-overflowscrolling #autosave_pop {height:auto;max-height:10000px !importa
 /* 본문 링크색 설정*/
 #bo_v_con a:link, #bo_v_con a:visited {
   color: #3a3afd; /* 00f; */
-  text-decoration: underline;
+  text-decoration: none;
 }
 #bo_v_con a:hover, #bo_v_con a:active {
   color: #f00;
