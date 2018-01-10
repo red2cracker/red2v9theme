@@ -74,7 +74,7 @@ if (G5_IS_MOBILE) {
     <li><a href="http://red2.net/other2/donation.html">후원하기</a></li>
   </ul>
 
-  <p class="footer-copy">Copyright 2002-2017, Red2.net.</p>
+  <p class="footer-copy">Copyright 2002-2018, Red2.net.</p>
 </footer>
 
 
