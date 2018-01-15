@@ -41,7 +41,7 @@ include_once(G5_LIB_PATH.'/popular.lib.php');
         </div>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">위키</a>
+        <a class="nav-link" href="http://red2.net/dokuwiki/doku.php">위키</a>
       </li>
       <!-- <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
