@@ -81,6 +81,7 @@
   /*border: 1px solid #000;*/
   line-height: 1.9rem; /* 1.7rem; */
   margin-bottom: 15px;
+  /*border: 1px solid #000;*/
 }
 
 /* 최신글 메뉴 링크색 */
@@ -110,6 +111,10 @@
   margin: 0;
   padding: 0;
   list-style: none;
+  /* 구 레드넷 참고 */
+  /* 텍스트 두줄 버그 해결 */
+  white-space: nowrap;
+  overflow: hidden;
 }
 
 .latest li {
@@ -143,6 +148,22 @@ article.col-md-6.latest {
   padding-right: 0;
 }
 */
+
+/* 코멘트(댓글) 수 */
+.latest .cnt_cmt {
+  font-weight: bold;
+  font-size: 90%;
+}
+
+/* 최근 게시물 댓글 괄호 */
+/* http://aboooks.tistory.com/252 */
+.latest .cnt_cmt:before {
+  content: "(";
+}
+.latest .cnt_cmt:after {
+  content: ")";
+}
+
 
 
 /* Medium devices (tablets, 768px and up) */
