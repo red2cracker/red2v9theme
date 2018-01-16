@@ -352,6 +352,16 @@
   height: 34px;
   margin-bottom: 5px;
 }
+/* 서명 */
+#reg_mb_signature {
+  padding: 3px;
+  border: 1px solid #000;
+  width: 100%; /* 100%; */ /* 아이디, 비번 입력창 너비 재설정 */
+  height: 150px !important;
+  margin-bottom: 5px;
+}
+
+
 
 .mbskin-new-submit {
 	width: 100%;
@@ -401,7 +411,8 @@
 @media (min-width: 576px) {
 	
 .mbskin-new .mbskin-new-input,
-.mbskin-new-submit {
+.mbskin-new-submit,
+#reg_mb_signature {
   width: 350px; /* 100%; */ /* 아이디, 비번 입력창 너비 재설정 */
 }
 	

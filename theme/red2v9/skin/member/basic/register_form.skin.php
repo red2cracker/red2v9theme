@@ -138,6 +138,23 @@ add_stylesheet('<link rel="stylesheet" href="'.$member_skin_url.'/style.css">', 
 	
 	
 	
+<?php if ($config['cf_use_signature']) {  ?>
+
+<div>
+<label for="reg_mb_signature"><strong>서명 <?php if ($config['cf_req_signature']){ ?><span class="mbskin-new-required">*</span><?php } ?> </strong></label>
+</div>
+
+
+<div>
+<textarea name="mb_signature" id="reg_mb_signature" <?php echo $config['cf_req_signature']?"required":""; ?> class="mbskin-new-signature <?php echo $config['cf_req_signature']?"required":""; ?>"><?php echo $member['mb_signature'] ?></textarea>
+</div>
+
+
+<?php }  ?>
+	
+	
+	
+	
 <div>
 <strong>자동등록방지 <span class="mbskin-new-required">*</span></strong>
 </div>
