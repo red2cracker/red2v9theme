@@ -79,9 +79,11 @@
   /*padding-left: 0.6rem;
   padding-right: 0.6rem;*/
   /*border: 1px solid #000;*/
-  line-height: 1.9rem; /* 1.7rem; */
+  /*line-height: 1.9rem;*/ /* 1.7rem; */
   margin-bottom: 15px;
   /*border: 1px solid #000;*/
+  /*margin-right: 5px;*/
+  /*padding-right: 3px;*/
 }
 
 /* 최신글 메뉴 링크색 */
@@ -97,6 +99,7 @@
 .latest h2 {
   /*font-weight: bolder;*/
   margin: 0;
+  /*border-bottom: 1px solid #000;*/
 }
 
 .latest h2 a {
@@ -128,6 +131,7 @@
 .latest li a {
   /*display: block;*/
   /*font-size: 1.2rem;*/
+  line-height: 1.9rem;
 }
 
 /* 지역 변수(?) */
