@@ -50,6 +50,7 @@ if (G5_IS_MOBILE) {
           <li><a href="http://red2.net/gnuboard5/bbs/board.php?bo_table=free">자유 게시판</a></li>
           <li><a href="http://red2.net/gnuboard5/bbs/board.php?bo_table=cnc">C&amp;C 게시판</a></li>
 		  <li><a href="http://red2.net/gnuboard5/bbs/board.php?bo_table=qna">Q&amp;A 게시판</a></li>
+		  <li><a href="http://red2.net/gnuboard5/bbs/board.php?bo_table=mod_tutorial">모드 강좌</a></li>
 		  <li><a href="http://red2.net/gnuboard5/bbs/board.php?bo_table=comic">팬픽</a></li>
 		  <li><a href="http://red2.net/gnuboard5/bbs/board.php?bo_table=suggest">건의사항</a></li>
 		  <li><a href="http://red2.net/comm2/link.html">링크</a></li>
