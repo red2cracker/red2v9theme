@@ -289,6 +289,7 @@ html.no-overflowscrolling #autosave_pop {height:auto;max-height:10000px !importa
 }
 
 
+/* 게시물 상단 버튼 시작 */
 
 /* 버튼에 호버시 색깔 */
 #bo_v_top a.btn_b01:hover,
@@ -302,9 +303,12 @@ html.no-overflowscrolling #autosave_pop {height:auto;max-height:10000px !importa
   color: #fff;
 }
 
-#bo_v_top {
+#bo_v_top, #bo_v_bot {
   margin-top: 10px;
   margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap; /* 모바일에서 아래로 밀림 */
 }
 
 #bo_v_top ul, #bo_v_bot ul {
@@ -312,7 +316,7 @@ html.no-overflowscrolling #autosave_pop {height:auto;max-height:10000px !importa
   padding:0;
   list-style:none;
   display: flex;
-  justify-content: flex-end;
+  justify-content: flex-start;
   flex-wrap: wrap;
 }
 
@@ -322,6 +326,10 @@ html.no-overflowscrolling #autosave_pop {height:auto;max-height:10000px !importa
 
 #bo_v_top li:last-child, #bo_v_bot li:last-child {
   margin-right: 0px;
+}
+
+#bo_v_top a,  #bo_v_bot a {
+  padding: 4px;
 }
 
 
