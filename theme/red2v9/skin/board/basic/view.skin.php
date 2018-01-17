@@ -65,8 +65,8 @@ add_stylesheet('<link rel="stylesheet" href="'.$board_skin_url.'/style.css">', 0
                     <?php echo $view['file'][$i]['source'] ?>
                     <?php echo $view['file'][$i]['content'] ?> (<?php echo $view['file'][$i]['size'] ?>)
                 </a>
-                <span class="bo_v_file_cnt"><?php echo $view['file'][$i]['download'] ?>회 다운로드</span>
-                <span>DATE : <?php echo $view['file'][$i]['datetime'] ?></span>
+                <span class="bo_v_file_cnt"><?php echo $view['file'][$i]['download'] ?>회</span>
+                <span><?php echo $view['file'][$i]['datetime'] ?></span>
             </li>
         <?php
             }
