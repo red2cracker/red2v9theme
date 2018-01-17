@@ -135,9 +135,18 @@
 .td_num strong {color:#000}
 .bo_cate_link {display:inline-block;margin:0 3px 0 0;padding:0 6px 0 0;border-right:1px solid #e7f1ed;color:#999 !important;font-weight:bold;text-decoration:none} /* 글제목줄 분류스타일 */
 .bo_current {color:#e8180c}
-#bo_list .cnt_cmt {display:inline-block;margin:0 0 0 3px;font-weight:bold}
+#bo_list .cnt_cmt {display:inline-block;margin:0 0 0 3px;font-weight:bold;font-size: 90%}
 
-#bo_sch {margin-bottom:10px;padding-top:5px;text-align:center}
+#bo_list .cnt_cmt:before {
+  content: "(";
+}
+#bo_list .cnt_cmt:after {
+  content: ")";
+}
+
+
+
+#bo_sch {margin-bottom:10px;padding-top:5px;text-align:center;clear:both}
 #bo_sch legend {position:absolute;margin:0;padding:0;font-size:0;line-height:0;text-indent:-9999em;overflow:hidden}
 
 

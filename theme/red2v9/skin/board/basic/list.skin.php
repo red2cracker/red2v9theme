@@ -40,9 +40,8 @@ add_stylesheet('<link rel="stylesheet" href="'.$board_skin_url.'/style.css">', 0
             <?php echo $page ?> 페이지
         </div>
 
-        <?php if ($rss_href || $write_href) { ?>
+        <?php if ($write_href) { ?>
         <ul class="btn_bo_user">
-            <?php if ($rss_href) { ?><li><a href="<?php echo $rss_href ?>" class="btn_b01">RSS</a></li><?php } ?>
             <?php if ($admin_href) { ?><li><a href="<?php echo $admin_href ?>" class="btn_admin">관리자</a></li><?php } ?>
             <?php if ($write_href) { ?><li><a href="<?php echo $write_href ?>" class="btn_b02">글쓰기</a></li><?php } ?>
         </ul>
@@ -134,7 +133,7 @@ if ($wr_id == $list[$i]['wr_id'])
                 if (isset($list[$i]['icon_new'])) echo $list[$i]['icon_new'];
                 // if (isset($list[$i]['icon_hot'])) echo $list[$i]['icon_hot'];
                 if (isset($list[$i]['icon_file'])) echo $list[$i]['icon_file'];
-                if (isset($list[$i]['icon_link'])) echo $list[$i]['icon_link'];
+                // if (isset($list[$i]['icon_link'])) echo $list[$i]['icon_link'];
                 if (isset($list[$i]['icon_secret'])) echo $list[$i]['icon_secret'];
 
                  ?>
