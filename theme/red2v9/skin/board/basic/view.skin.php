@@ -97,7 +97,7 @@ add_stylesheet('<link rel="stylesheet" href="'.$board_skin_url.'/style.css">', 0
                     <img src="<?php echo $board_skin_url ?>/img/icon_link.gif" alt="관련링크">
                     <?php echo $link ?>
                 </a>
-                <span class="bo_v_link_cnt"><?php echo $view['link_hit'][$i] ?>회 연결</span>
+                <span class="bo_v_link_cnt"><?php echo $view['link_hit'][$i] ?>회</span>
             </li>
         <?php
             }
