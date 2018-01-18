@@ -22,16 +22,23 @@ add_stylesheet('<link rel="stylesheet" href="'.$board_skin_url.'/style.css">', 0
 <!-- 게시판 목록 시작 { -->
 <div id="bo_list" style="width:<?php echo $width; ?>">
 
-    <!-- 게시판 카테고리 시작 { -->
-    <?php if ($is_category) { ?>
-    <nav id="bo_cate">
-        <h2><?php echo $board['bo_subject'] ?> 카테고리</h2>
-        <ul id="bo_cate_ul">
-            <?php echo $category_option ?>
-        </ul>
-    </nav>
-    <?php } ?>
-    <!-- } 게시판 카테고리 끝 -->
+<!-- https://sir.kr/g5_tip/992 -->
+<!-- 게시판 카테고리 시작 { -->
+<?php if ($is_category) { ?>
+	<?php
+		$category_option_old = get_category_option($bo_table, $sca); // SELECT OPTION 태그로 넘겨받음
+	?>
+<form name="fcategory" class="bl_cate" method="get" action="<?=$_SERVER[PHP_SELF]?>">
+<input type="hidden" name="bo_table" value="<?=$bo_table?>">
+<select class="bl_cate_list" name="sca">
+	<option value=''>전체</option>
+	<?=$category_option_old?>
+</select>
+<input type="submit" class="bl_cate_btn" value="확인">
+</form>
+<?php } ?>
+<!-- } 게시판 카테고리 끝 -->
+
 
     <!-- 게시판 페이지 정보 및 버튼 시작 { -->
     <div class="bo_fx">
@@ -89,7 +96,7 @@ add_stylesheet('<link rel="stylesheet" href="'.$board_skin_url.'/style.css">', 0
             if ($list[$i]['is_notice']) // 공지사항
                 echo '<strong>공지</strong>';
             else if ($wr_id == $list[$i]['wr_id'])
-                echo "<span class=\"bo_current\">열람</span>"; //열람중
+                echo "<strong>".$list[$i]['num']."</strong>"; //열람중
             else
                 echo $list[$i]['num'];
              ?>

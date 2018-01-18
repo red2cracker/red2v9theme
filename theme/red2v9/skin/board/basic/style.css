@@ -100,7 +100,7 @@
 #bo_list .td_mng {width:80px;text-align:center}
 #bo_list .td_name {width:100px;text-align:left}
 #bo_list .td_nick {width:100px;text-align:center}
-#bo_list .td_num {width:60px;text-align:center}
+#bo_list .td_num {width:65px;text-align:center}
 #bo_list .td_numbig {width:80px;text-align:center}
 
 #bo_list .txt_active {color:#5d910b}
@@ -995,8 +995,24 @@ h2#container_title a:hover, h2#container_title a:active {
 }
 
 
+/* 카테고리 select 형 */
+/* https://sir.kr/g5_tip/992 */
 
+.bl_cate_list {
+  width: 90px;
+  border: 1px solid #000;
+}
 
+.bl_cate_btn {
+  padding: 3px 10px;
+  border: 0;
+  background-color: #4b545e;
+  color: #fff;
+  cursor: pointer;
+}
+.bl_cate_btn:hover {
+  color: #f00;
+}
 
 
 
